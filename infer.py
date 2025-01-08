@@ -7,6 +7,9 @@ import cv2
 import matplotlib
 import matplotlib.pyplot as plt
 
+import numpy as np
+import dlib
+
 from detector.detect import detect_face
 from detector.smooth import smooth_face
 from utils.image import (load_image, 
